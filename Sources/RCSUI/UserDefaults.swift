@@ -5,6 +5,10 @@
 //  Created by Chandra Sekhar Ravi on 2025-03-28.
 //
 
+//Usage
+//let username: String? = UserDefaultsManager.shared.get(forKey: "username", as: String.self)
+//print(username ?? "No username found")
+
 import Foundation
 
 class UserDefaultsManager {
