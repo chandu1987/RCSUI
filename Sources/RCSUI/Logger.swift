@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Logger {
+public final class Logger {
     // Prevent instantiation
     private init() {}
 

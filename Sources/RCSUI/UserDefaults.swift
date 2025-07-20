@@ -11,7 +11,7 @@
 
 import Foundation
 
-class UserDefaultsManager {
+public class UserDefaultsManager {
     static let shared = UserDefaultsManager()
     private let defaults = UserDefaults.standard
     
