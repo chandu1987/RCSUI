@@ -18,7 +18,7 @@ public final class Logger {
                            line: Int = #line) {
 #if DEBUG
         let fileName = (file as NSString).lastPathComponent
-        print("📍[\(fileName):\(line)] \(function) ▶︎ \(message())")
+        print("RCSUI - 📍[\(fileName):\(line)] \(function) ▶︎ \(message())")
 #endif
     }
     
@@ -35,7 +35,7 @@ public final class Logger {
                 log(prettyString, file: file, function: function, line: line)
             }
         } catch {
-            log("⚠️ Failed to pretty print JSON: \(error.localizedDescription)", file: file, function: function, line: line)
+            log("RCSUI - ⚠️ Failed to pretty print JSON: \(error.localizedDescription)", file: file, function: function, line: line)
         }
 #endif
     }
