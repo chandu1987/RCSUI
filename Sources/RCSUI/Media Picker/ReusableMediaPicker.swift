@@ -53,7 +53,7 @@ public struct ReusableMediaPicker: ViewModifier {
 }
 
 public extension View {
-    func mediaPicker(
+   public func mediaPicker(
         source: MediaSource,
         isPresented: Binding<Bool>,
         selectedImage: Binding<UIImage?>
