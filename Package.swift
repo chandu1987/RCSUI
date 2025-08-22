@@ -6,6 +6,11 @@ import PackageDescription
 let package = Package(
     name: "RCSUI",
     defaultLocalization: "en",
+    platforms: [
+        .iOS(.v16),
+        .macOS(.v10_15),
+        .tvOS(.v13)
+    ],
     products: [
         .library(
             name: "RCSUI",
